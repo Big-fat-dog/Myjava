@@ -2,11 +2,11 @@ package Day2;
 
 public class Control {
     public static void main(String[] args) {
-        int i =55;
-    if(i==55){
-        i++;
+    for(int i=0;i<9;i++){
+        for(int j=0;j<=i;j++){
+            System.out.print("*");
+        }
+        System.out.println();
     }
-    System.out.println(i);
     }
-
 }
