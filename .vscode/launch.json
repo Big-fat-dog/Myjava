@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Control",
+            "request": "launch",
+            "mainClass": "Day2.Control",
+            "projectName": "MyJava_2ba7e9c7"
+        },
+        {
+            "type": "java",
+            "name": "LogicExpression",
+            "request": "launch",
+            "mainClass": "Day2.LogicExpression",
+            "projectName": "MyJava_2ba7e9c7"
+        },
+        {
+            "type": "java",
+            "name": "operator",
+            "request": "launch",
+            "mainClass": "Day2.operator",
+            "projectName": "MyJava_2ba7e9c7"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -26,5 +26,8 @@ public class DataType {
 
         //TODO4.布尔类型
         boolean bl = true;
+
+        //TODO5.字符串，属于引用数据类型
+        String a = "name";
     }
 }
