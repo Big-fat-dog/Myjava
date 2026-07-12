@@ -31,7 +31,7 @@ public class MyString {
         System.out.println(i);
 
         //TODO字符串截取操作,左闭右开
-        String ss = " Hello, world ";
+        String ss = " Hello, world zhangsan";
         System.out.println(ss.substring(0,5));
 
         //分解字符串
@@ -40,5 +40,48 @@ public class MyString {
 
         //trim去掉字符串首尾空格
         System.out.println(ss.trim()+"!");
+
+        //替换：replace
+        System.out.println(ss.replace("world","H"));
+        System.out.println(ss.replaceAll("zhangsan","H"));
+
+        //大小写转换
+        System.out.println(ss.toLowerCase());
+
+        //字符串查找
+        char[] chars = ss.toCharArray();
+        byte[] bytes = ss.getBytes();
+        for(char n:chars){
+            System.out.print(n+" ");
+        }
+        for(byte n:bytes){
+            System.out.print(n+" ");
+        }
+        System.out.println();
+        //charAt可以传递索引打印指定位置字符
+        System.out.println(ss.charAt(1));
+
+        //判断字符串在什么位置
+        System.out.println(ss.indexOf("o"));
+
+        //是否包含
+        System.out.println(ss.contains("H"));
+
+        //是否以指定开头,endsWith同理
+        System.out.println(ss.startsWith(" "));
+
+        //是否为空,空格不算空
+        System.out.println(ss.isEmpty());
+
+        //stringBuilder构建字符串
+        //api如append添加
+        //reverse反转
+        //insert插入，在指定位置插入
+        
+        StringBuilder sss  = new StringBuilder();
+        for(int aaaaa=0;aaaaa<100;aaaaa++){
+            sss.append(aaaaa);
+        }
+        System.out.println(sss.toString());
         }
 }
