@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Fanxing {
     public static void main(String[] args) {
-        ArrayList l = new ArrayList<>();
+        ArrayList<User6> l = new ArrayList<>();
         //泛型
         User6 u =new User6();
         P ss = new P();
